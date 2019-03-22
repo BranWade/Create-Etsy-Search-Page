@@ -1,0 +1,65 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#headerLeft {
+    justify-content: space-between;   
+}
+
+#headerRight {
+    justify-content: flex-end;
+
+}
+
+#mySearch {
+    border: 1px solid #ccc;
+    width: 400px;
+    height: 2.8rem;
+}
+
+
+#header img {
+    padding-right: 20px;
+}
+
+Button {
+    font-size: 15px;
+    color:white;
+    padding-left:0px;
+    background: black;
+    height: 2.8rem;
+    width: 8rem;
+    border-radius: 5px;
+    
+}
+
+
+
+#nav ul {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    list-style: none;
+    justify-content:center ;
+    justify-content:space-around ;
+    
+}
+
+#sideBar ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-content: space-between;
+    align-self: baseline;
+   
+}
+
+#sideBar li {
+    align-content: space-around;
+}
+
+
