@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>EtsyClone</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <script src="items.js"></script> -->
-    <!-- <script src="main.js"></script> -->
+    <script src="items.js"></script>
+    <script src="main.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
@@ -17,61 +17,55 @@
 <div id="header">
    
     <form>
-            <div id="headerleft">
+            <div id="headerLeft">
               <img src="./assets/etsy-vector-logo-small.png" alt="Etsy_Logo" height="125" width="125">
-              <input type="search" id="mySearch" name="searchbar">
-              <button class="searchSubmit">Search</button>
+              <div>
+                <input type="search" id="mySearch" name="searchbar">
+                <button id="search" class="searchSubmit">Search</button>
+              </div>
             </div>
-    </form> 
+    </form>
+    <section>
             <div id="headerRight"> 
-              <button id="sell"> sell on Etsy </button></div>
+              <button id="sell"> sell on Etsy </button>
               <button id="register"> Register</button>
-              <button id="logIn"> Sign in </button>
+              <button id="logIn"> Sign in </button>  
               <i class="fas fa-box"></i>
-              <i class="fas fa-shopping-cart"></i>
-    </div>
-
-   
+              <i id="cart" class="fas fa-shopping-cart"></i>        
+    </div>  
+    </section>   
 </div>
 
+<nav id="nav">
+    <ul>
+        <li> Jewelry & Accessories </li>
+        <li> Clothing & Shoes </li>
+        <li> Home & Living </li>
+        <li> Wedding & Party </li>
+        <li> Toys & Entertainment </li>
+        <li> Art & Collectibles </li>
+        <li> Craft Supplies </li>
+        <li> Vintage </li>
+        <li> Gifts </li>
+     </ul>
+</nav>
 
+<nav id="sideBar">
+            <button class="sideBarButton"> Special offers </button>
+            <button class="sideBarButton"> Catergories </button> 
+            <button class="sideBarButton"> Shipping </button>
+            <button class="sideBarButton"> Material </button>
+            <button class="sideBarButton"> Color </button>
+            <button class="sideBarButton"> Can be personlized </button>
+            <button class="sideBarButton"> Occasion </button>
+            <button class="sideBarButton"> Holiday </button>
+            <button class="sideBarButton"> Shop Location </button>
+            <button class="sideBarButton"> Item Type </button>
+            <button class="sideBarButton"> Price ( $ ) </button>
+            <button class="sideBarButton"> Ordering Options </button>
+            <button class="sideBarButton"> Ship To</button>
 
-
-
-    <nav id="nav">
-        <ul>
-            <li> Jewelry & Accessories </li>
-            <li> Clothing & Shoes </li>
-            <li> Home & Living </li>
-            <li> Wedding & Party </li>
-            <li> Toys & Entertainment </li>
-            <li> Art & Collectibles </li>
-            <li> Craft Supplies </li>
-            <li> Vintage </li>
-            <li> Gifts </li>
-
-        </ul>
-        
-    </nav>
-
-    <nav id="sideBar">
-        <ul>
-            <li> Special Offers </li>
-            <li> Catergories </li>   
-            <li> Shipping </li>       
-            <li> Material </li>       
-            <li> Color </li>       
-            <li> Can be personlized </li>       
-            <li> Occasion </li>       
-            <li> Holiday </li>       
-            <li> Shop Location </li>       
-            <li> Item Type</li>       
-            <li> Price($) </li>       
-            <li> Ordering Options</li>  
-            <li> Ship to </li>     
-
-        </ul>
-    </nav>
+</nav>
 
 
 

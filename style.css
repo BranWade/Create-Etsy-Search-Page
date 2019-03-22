@@ -1,31 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
 #header {
     display: flex;
+    /* align-items: center; */
+    justify-content: space-between ;
     align-items: center;
-    justify-content: space-between;
+    
 
 }
 
 #headerLeft {
-    justify-content: space-between;   
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+
+    
+     
 }
 
-#headerRight {
-    justify-content: flex-end;
+#sell, #register {
+   border: 0;
+   font-size: 15px;
+   padding:0px;
+   height: 2.8rem;
+   width: 8rem;
+   
 
+
+}
+
+#logIn {
+    padding:0px;
+    font-size: .75rem;
+    border: 1px solid black;
+    height: 2.8rem;
+    width: 6rem;
+    margin: 10px;
+    border-radius: 4px;
+    
+}
+
+#headerRight{
+    justify-content: center;
+    align-items:center;
+   
+}
+
+
+#headerRight, i {
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    font-size: 2rem;
+    justify-content:flex-end;
+    border-right: 1px solid #ccc;
+    
+}
+
+#cart {
+    border: 0px;
 }
 
 #mySearch {
+    
     border: 1px solid #ccc;
     width: 400px;
     height: 2.8rem;
+    border-radius: 5px;
+    
 }
 
 
 #header img {
-    padding-right: 20px;
+    padding-right: 0px;
 }
 
-Button {
+#search {
     font-size: 15px;
     color:white;
     padding-left:0px;
@@ -33,6 +86,8 @@ Button {
     height: 2.8rem;
     width: 8rem;
     border-radius: 5px;
+    border: 5px solid black;
+    padding-right: 0px;
     
 }
 
@@ -41,25 +96,28 @@ Button {
 #nav ul {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-    padding: 20px;
     display: flex;
     list-style: none;
     justify-content:center ;
-    justify-content:space-around ;
-    
-}
-
-#sideBar ul{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    align-content: space-between;
-    align-self: baseline;
+    justify-content:space-between ;
+    font-size: 1.5rem;
    
 }
 
-#sideBar li {
-    align-content: space-around;
+
+#nav, li {
+    padding: 10px;
+    text-align: center;
 }
+
+
+
+#sideBar, #sideBarButton{
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    text-align: flex-start;
+    width: 12rem;
+    border-style: none;
 
 
